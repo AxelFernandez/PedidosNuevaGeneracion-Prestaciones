@@ -7,7 +7,7 @@
             <item
                 android:id="@+id/nav_car"
                 android:icon="@drawable/ic_directions_car_black_24dp"
-                android:title="Automoviles" />
+                android:title="Automóviles" />
             <item
                 android:id="@+id/nav_moto"
                 android:icon="@drawable/ic_motorcycle_black_24dp"
@@ -33,7 +33,7 @@
             <item
                 android:id="@+id/nav_electrodomestic"
                 android:icon="@drawable/ic_devices_other_black_24dp"
-                android:title="Electrodomesticos"></item>
+                android:title="Electrodomésticos"></item>
             <item
                 android:id="@+id/nav_homefurniture"
                 android:icon="@drawable/ic_home_black_24dp"
@@ -41,7 +41,7 @@
             <item
                 android:id="@+id/nav_articuleshome"
                 android:icon="@drawable/ic_lightbulb_outline_black_24dp"
-                android:title="Articulos para el Hogar"></item>
+                android:title="Artículos para el Hogar"></item>
             <item
                 android:id="@+id/nav_designcup"
                 android:icon="@drawable/ic_free_breakfast_black_24dp"
@@ -61,7 +61,7 @@
             <item
                 android:id="@+id/nav_otherarticules"
                 android:icon="@drawable/ic_tag_faces_black_24dp"
-                android:title="Articulos Varios"></item>
+                android:title="Artículos Varios"></item>
         </menu>
     </item>
 

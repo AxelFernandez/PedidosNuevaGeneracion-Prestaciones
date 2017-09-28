@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/welcome_desc"
         android:layout_below="@id/dump"
-        android:text="Podes ver los diferentes rubros en la barra deslizante de tu izquierda.
+        android:text="Podés ver los diferentes rubros en la barra deslizante de tu izquierda.
 Hoy queremos que descubras estos productos:"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
