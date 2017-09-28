@@ -40,6 +40,7 @@ Hoy queremos que descubras estos productos:"
     android:layout_height="wrap_content"
     android:id="@+id/welcome_rubro"
     android:layout_below="@id/welcome_desc"
+    android:layout_marginLeft="10dp"
     android:layout_marginTop="10dp"/>
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"

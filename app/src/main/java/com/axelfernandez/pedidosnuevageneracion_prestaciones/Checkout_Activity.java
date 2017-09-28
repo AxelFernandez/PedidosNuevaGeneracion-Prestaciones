@@ -27,8 +27,8 @@ ArrayList<Integer> arrayidex=new ArrayList<>();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checkout_);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         toolbar.setTitle("Resumen de Compra");
+        setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         Button btncomprar = (Button) findViewById(R.id.buttoncomprar);
@@ -76,7 +76,7 @@ btncomprar.setOnClickListener(new View.OnClickListener() {
                 +"DNI: "+dni.getText() + "\n"+
                 "E-mail: "+ email.getText() + "\n" +"\n El pedido contiene lo siguiente \n"+  "\n";
         for (int i = 0;i<adapter.prod.size();i++){
-            texemail = texemail + "Producto N "+i+ "\n"
+            texemail = texemail + "Producto Nº"+i+ "\n"
                    +"Nombre:" + adapter.prod.get(i).getNombre() +" \n"
                     + "Cantidad: "+ adapter.prod.get(i).getCantidad()+" \n"
                     + "Precio: " +adapter.prod.get(i).getPrecio() + "\n" + "\n";
