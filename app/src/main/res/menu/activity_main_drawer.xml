@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Rubros">
+        <menu>
+            <item
+                android:id="@+id/nav_car"
+                android:icon="@drawable/ic_directions_car_black_24dp"
+                android:title="Automoviles" />
+            <item
+                android:id="@+id/nav_moto"
+                android:icon="@drawable/ic_motorcycle_black_24dp"
+                android:title="Motos" />
+            <item
+                android:id="@+id/nav_bike"
+                android:icon="@drawable/ic_directions_bike_black_24dp"
+                android:title="Bicicletas"/>
+            <item
+                android:id="@+id/nav_television"
+                android:icon="@drawable/ic_tv_black_24dp"
+                android:title="Televisores">
+            </item>
+            <item
+                android:id="@+id/nav_cellphone"
+                android:icon="@drawable/ic_smartphone_black_24dp"
+                android:title="Celulares">
+            </item>
+            <item
+                android:id="@+id/nav_cellphonecase"
+                android:icon="@drawable/ic_phonelink_setup_black_24dp"
+                android:title="Carcasas Para Celulares"></item>
+            <item
+                android:id="@+id/nav_electrodomestic"
+                android:icon="@drawable/ic_devices_other_black_24dp"
+                android:title="Electrodomesticos"></item>
+            <item
+                android:id="@+id/nav_homefurniture"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Muebles de Hogar"></item>
+            <item
+                android:id="@+id/nav_articuleshome"
+                android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+                android:title="Articulos para el Hogar"></item>
+            <item
+                android:id="@+id/nav_designcup"
+                android:icon="@drawable/ic_free_breakfast_black_24dp"
+                android:title="Tazas Con Diseño"></item>
+            <item
+                android:id="@+id/nav_desingkeys"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Llaveros con Diseños"></item>
+            <item
+                android:id="@+id/nav_sportwear"
+                android:icon="@drawable/ic_fitness_center_black_24dp"
+                android:title="Ropa Informal"></item>
+            <item
+                android:id="@+id/nav_formalwear"
+                android:icon="@drawable/ic_work_black_24dp"
+                android:title="Ropa Formal"></item>
+            <item
+                android:id="@+id/nav_otherarticules"
+                android:icon="@drawable/ic_tag_faces_black_24dp"
+                android:title="Articulos Varios"></item>
+        </menu>
+    </item>
+
+</menu>

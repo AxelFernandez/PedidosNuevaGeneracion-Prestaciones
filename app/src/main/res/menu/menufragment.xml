@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_ordenar_name"
+        android:orderInCategory="100"
+        android:title="Ordenar Por Nombre"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_menor_precio"
+        android:orderInCategory="100"
+        android:title="Ordenar por Precio"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ultimos_agregados"
+        android:orderInCategory="100"
+        android:title="Ordenar por Fecha de Adición"
+        app:showAsAction="never" />
+</menu>

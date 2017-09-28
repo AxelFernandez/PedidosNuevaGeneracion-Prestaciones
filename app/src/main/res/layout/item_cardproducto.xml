@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:numberpicker="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:id="@+id/cv"
+        tools:layout_editor_absoluteX="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_prod_image"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/item_prod_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_prod_image"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000000"
+            android:textSize="18dp"
+           tools:text="$4000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_prod_desc"
+            android:layout_below="@id/item_prod_price"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            tools:text="Casco Para Moto"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/item_prod_cant"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_prod_desc"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:text="Cantidad"/>
+        <com.shawnlin.numberpicker.NumberPicker
+            android:layout_width="wrap_content"
+            android:id="@+id/np__numberpicker_input2"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/item_prod_cant"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/item_prod_desc"
+            app:np_max="99"
+            app:np_min="1"
+            app:np_orientation="horizontal"
+            app:np_selectedTextColor="@color/colorPrimary"
+            app:np_textColor="@color/colorAccent"
+        ></com.shawnlin.numberpicker.NumberPicker>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_shopping_cart_black_24dp"
+            android:layout_below="@id/item_prod_cant"
+          android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+          />
+
+
+    </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    </RelativeLayout>

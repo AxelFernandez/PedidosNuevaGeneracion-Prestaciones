@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "60127410634",
+    "firebase_url": "https://pedidos-prestaciones.firebaseio.com",
+    "project_id": "pedidos-prestaciones",
+    "storage_bucket": "pedidos-prestaciones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60127410634:android:83fd9174659045d2",
+        "android_client_info": {
+          "package_name": "com.axelfernandez.pedidosprestaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60127410634-9lrl7u8rfmujlk4jv32cs7v4c9qtcohk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.axelfernandez.pedidosprestaciones",
+            "certificate_hash": "a0ca63a40d1992587f0c6ec81565ceb9cbcf5f11"
+          }
+        },
+        {
+          "client_id": "60127410634-iqrl7qva412bkobfir7blq8bfaer017s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDRw1yMoKXyIVnWYJaAM9kFkvqTwn3hHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60127410634-iqrl7qva412bkobfir7blq8bfaer017s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
